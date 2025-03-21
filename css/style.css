@@ -13,10 +13,9 @@ p {
 }
 
 .border-bottom {
-    border-bottom:var(--bs-border-width) var(--bs-border-style) var(--bs-border-color)!important;
+    border-bottom: var(--custom-border-width) var(--custom-border-style) var(--custom-border-color) !important;
     border-bottom-color: #324950 !important;
 }
-
 
 .hero {
     background: url('../images/home-bg.png') center/cover no-repeat;
@@ -46,7 +45,7 @@ p {
 }
 
 .row {
-    margin-left: calc(-1 * var(--bs-gutter-x));
+    margin-left: calc(-1 * var(--custom-gutter-x));
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
@@ -55,7 +54,7 @@ p {
 
 .py-5 {
     padding-top: 2rem !important;
-    padding-bottom:2rem !important;
+    padding-bottom: 2rem !important;
 }
 
 .green-bar {
@@ -120,4 +119,3 @@ footer .list-inline-item a {
 .bg-secondary {
     background-color: #324950 !important;
 }
-
